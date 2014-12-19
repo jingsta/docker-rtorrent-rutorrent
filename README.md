@@ -34,7 +34,7 @@ docker pull kfei/docktorrent
 After the image is built or pulled, run the docktorrent container, for example:
 ```bash
 docker run -it \
-    --name "docktorrent" \
+    --name="docktorrent" \
     -p 80:80 -p 45566:45566 -p 9527:9527/udp \
     --dns 8.8.8.8 \
     -v /data-store:/rtorrent \
